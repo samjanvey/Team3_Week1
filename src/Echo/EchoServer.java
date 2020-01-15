@@ -10,7 +10,7 @@ import java.net.Socket;
 
 public class EchoServer {
     public static void main(String[] args) {
-        System.out.println("Capitalization Server");
+        System.out.println("Echo Server");
         
         try (ServerSocket serverSocket = new ServerSocket(6000)) {
             System.out.println("Waiting for connection......");

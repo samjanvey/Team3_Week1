@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class EchoClient {
     
     public static void main(String[] args) {
-        System.out.println("Capitalization Client");
+        System.out.println("Echo Client");
         
         try {
             System.out.println("Waiting for connection......");
